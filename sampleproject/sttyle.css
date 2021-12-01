@@ -1,0 +1,44 @@
+.cardbody{
+    padding: 3% 6% 5% 6%;
+    background-color:rgb(225, 65, 65) (255, 211, 205);
+    margin: 5%;
+    font-size: 20px;
+    margin: 50% solid black;
+    border-radius: 5%;
+    border: 3px solid yellow;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    color: black (89, 0, 255);
+}
+p{
+    color: black;
+}
+button{
+    color:black (25, 0, 255);
+}
+img{
+    border-radius: 1%;
+}
+s{
+    color: red;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: colum;
+    }
+    .cardbody{
+        width: 30%;
+        font-size: 700px;
+        background-color:seagreen(180, 179, 245);
+    }
+    button{font-size: 1000px ;}
+
+}
+    
+}
